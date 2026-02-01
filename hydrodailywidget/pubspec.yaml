@@ -1,0 +1,49 @@
+name: hydrodailywidget
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 5.1.1+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  http: ^1.2.1
+
+  # Widget
+  home_widget: ^0.8.1
+  
+  in_app_purchase: ^3.2.0
+  # Local storage
+  shared_preferences: ^2.5.3
+
+  url_launcher: ^6.3.0
+
+  # Firebase (uyumlu versiyonlar)
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_messaging: ^16.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: false
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
